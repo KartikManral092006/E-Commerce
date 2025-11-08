@@ -1,7 +1,0 @@
-{
-  "watch": ["."],
-  "ignore": ["node_modules", ".git", "*.log"],
-  "ext": "js,json",
-  "delay": "300ms",
-  "exec": "node --experimental-default-type=module server.js"
-}
