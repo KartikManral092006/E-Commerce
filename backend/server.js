@@ -28,5 +28,6 @@ app.get('/',(req,res)=>{
 })
 
 app.listen(PORT,()=>{
-    console.log("Server started on PORT ")
+    console.log("server started on port ")
+
 })
