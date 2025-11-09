@@ -7,7 +7,7 @@ const productRouter = express.Router()
 
 
 productRouter.post('/addProduct' ,adminAuth,upload.fields([{name: 'image1' , maxCount:1},{name: 'image2' , maxCount:1},{name: 'image3' , maxCount:1},{name: 'image4' , maxCount:1}]), addProduct)
-productRouter.post('/listProducts' ,listProducts)
+productRouter.get('/listProducts' ,listProducts)
 productRouter.post('/removeProduct' ,adminAuth, removeProduct)
 productRouter.post('/singleProduct' ,singleProduct)
 
